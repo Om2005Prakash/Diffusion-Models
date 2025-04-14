@@ -18,3 +18,6 @@ We trained Denoising Diffusion Probabilitic Models using the HuggingFace `diffus
 
 The trained models can be downloaded from this Google Drive link:
 https://drive.google.com/drive/folders/1HmLK4hkkI6-Fl6vaHyX05PBe8U2FWl5E?usp=drive_link
+
+Alternative HuggingFace link:
+https://huggingface.co/Om2005Prakash/Diffusion_Pre_Trained/tree/main
