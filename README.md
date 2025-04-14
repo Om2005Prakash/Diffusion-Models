@@ -2,7 +2,7 @@
 This work was part of a term paper / project for the UMC203 Introduction to AI and ML course at IISc.
 
 ## Contributors
-- Om Prakash Choudhary
+- Om Prakash Choudhary 
 - Himesh Kumar Anant
 - Jithendra Rao Kasibhatla
 - Keval Pithadiya
