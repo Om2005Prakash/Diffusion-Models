@@ -11,6 +11,8 @@ This repository contains the code and results for our term project in the **UMC2
 ---
 
 ## 🧪 Results
+For a detailed explanation of the methodology, training setup, and results, check out the full report:  
+📄 [Read the Report (PDF)](./Project%20Report.pdf)
 
 ### CelebA 128x128 – Noise Prediction
 
