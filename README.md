@@ -12,35 +12,83 @@ This repository contains the code and results for our term project in the **UMC2
 
 ## 🧪 Results
 
-### CelebA 128x128 – Noise Prediction  
-<p align="center">
-  <img src="./Samples/CelebA128/CelebA_Noise_DDPM_Samples.png" width="45%"/>
-  <img src="./Samples/CelebA128/CelebA_Noise_DDIM_Samples.png" width="45%"/>
-</p>
+### CelebA 128x128 – Noise Prediction
+
+<table>
+  <tr>
+    <td>
+      <figure>
+        <img src="./Samples/CelebA128/CelebA_Noise_DDPM_Samples.png" width="500"/>
+        <figcaption align="center">DDPM – Noise Prediction</figcaption>
+      </figure>
+    </td>
+    <td>
+      <figure>
+        <img src="./Samples/CelebA128/CelebA_Noise_DDIM_Samples.png" width="500"/>
+        <figcaption align="center">DDIM – Noise Prediction</figcaption>
+      </figure>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### CIFAR-10 32x32  
-#### Noise Prediction  
-<p align="center">
-  <img src="./Samples/CIFAR10/CIFAR10_Noise_DDPM_Samples.png" width="45%"/>
-  <img src="./Samples/CIFAR10/CIFAR10_Noise_DDIM_Samples.png" width="45%"/>
-</p>
+### CIFAR-10 32x32
 
-#### Clean Image Prediction and Score Matching  
-<p align="center">
-  <img src="./Samples/CIFAR10/CIFAR10_Clean_DDPM_Samples.png" width="45%"/>
-  <img src="./Samples/CIFAR10/CIFAR10_Score_Samples.png" width="45%"/>
-</p>
+<table>
+  <tr>
+    <td>
+      <figure>
+        <img src="./Samples/CIFAR10/CIFAR10_Noise_DDPM_Samples.png" width="500"/>
+        <figcaption align="center">DDPM – Noise Prediction</figcaption>
+      </figure>
+    </td>
+    <td>
+      <figure>
+        <img src="./Samples/CIFAR10/CIFAR10_Noise_DDIM_Samples.png" width="500"/>
+        <figcaption align="center">DDIM – Noise Prediction</figcaption>
+      </figure>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <figure>
+        <img src="./Samples/CIFAR10/CIFAR10_Clean_DDPM_Samples.png" width="500"/>
+        <figcaption align="center">DDPM – Clean Image Prediction</figcaption>
+      </figure>
+    </td>
+    <td>
+      <figure>
+        <img src="./Samples/CIFAR10/CIFAR10_Score_Samples.png" width="500"/>
+        <figcaption align="center">Score Matching</figcaption>
+      </figure>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### Miscellaneous  
-#### Sampling Progress vs. Number of Steps | Latent Interpolation  
-<p align="center">
-  <img src="./Samples/misc/progress_with_steps.png" width="45%"/>
-  <img src="./Samples/misc/interpolation128_upd.png" width="45%"/>
-</p>
+### Miscellaneous
+
+<table>
+  <tr>
+    <td>
+      <figure>
+        <img src="./Samples/misc/progress_with_steps.png" height="200"/>
+        <figcaption align="center">Sample Quality vs Sampling Steps</figcaption>
+      </figure>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <figure>
+        <img src="./Samples/misc/interpolation128_upd.png" height="200"/>
+        <figcaption align="center">Latent Interpolation (CelebA 128x128)</figcaption>
+      </figure>
+    </td>
+  </tr>
+</table>
+
 
 ---
 
@@ -61,6 +109,9 @@ We trained **Denoising Diffusion Probabilistic Models (DDPMs)** using Hugging Fa
 
 ## 🛠️ Setup Instructions
 
-### Install Dependencies
-```bash
+## Requirements
+HuggingFace `diffusers` Library
+```sh
 pip install diffusers[training]
+```
+Python Version Used: 3.13.2
